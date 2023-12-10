@@ -1,0 +1,9 @@
+[debug] > Exec(all {file:/C:/Memoria%20Guerra/9no%20Semestre/PSFD/Pollution/}pollution/products {file:/C:/Memoria%20Guerra/9no%20Semestre/PSFD/Pollution/}pollution/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Memoria Guerra\9no Semestre\PSFD\Pollution\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 1 s, completed 30 nov. 2023 23:28:45
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

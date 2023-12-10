@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  postgres:
+    image: postgres:10.5
+    ports:
+      - '5438:5432'
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    volumes:
+      # copy the sql script to create tables
+      - ./sql/create_pollution_data_table.sql:/docker-entrypoint-initdb.d/create_pollution_data_table.sql

@@ -1,0 +1,6 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 24 products, 12 sources, 11 libraries
+[debug] current source = Set(${BASE}/src/main/scala/adapters/postgresql/PostgreSQL.scala, ${BASE}/target/scala-2.13/src_managed/main/scalapb/eci/edu/co/protos/PollutionCreated/PollutionCreatedProto.scala, ${BASE}/src/main/scala/SparkSessionWrapper.scala, ${BASE}/src/main/scala/Pollution.scala, ${BASE}/src/main/scala/deployements/kafka/consumers/UpdateStreamPollutionConsumer.scala, ${BASE}/src/main/scala/adapters/postgresql/PollutionDAO.scala, ${BASE}/src/main/scala/domain/ports/ForUpdatingRepository.scala, ${BASE}/src/main/scala/deployements/kafka/producers/PollutionProducer.scala, ${BASE}/src/main/scala/PollutionAnalysis.scala, ${BASE}/src/main/scala/domain/commands/SavePollution.scala, ${BASE}/src/main/scala/domain/commands/Command.scala, ${BASE}/target/scala-2.13/src_managed/main/scalapb/eci/edu/co/protos/PollutionCreated/PollutionCreated.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] No changes

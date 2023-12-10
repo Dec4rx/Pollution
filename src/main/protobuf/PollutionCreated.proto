@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package eci.edu.co.protos;
+
+import "google/protobuf/timestamp.proto";
+
+message PollutionCreated {
+    string state = 1;
+    string city = 2;
+    double aqiValue = 3;
+    string aqiColor = 4;
+    string hour = 5; // Formato esperado HH:MM
+    string date = 6; // Formato esperado YYYY-MM-DD
+    string correlationId = 7;
+    google.protobuf.Timestamp created = 8;
+}

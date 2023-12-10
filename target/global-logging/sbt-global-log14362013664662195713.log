@@ -1,0 +1,15 @@
+[debug] > Exec(all {file:/C:/Memoria%20Guerra/9no%20Semestre/PSFD/Pollution/}pollution/products {file:/C:/Memoria%20Guerra/9no%20Semestre/PSFD/Pollution/}pollution/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Memoria Guerra\9no Semestre\PSFD\Pollution\target\scala-2.13\classes ...
+[error] C:\Memoria Guerra\9no Semestre\PSFD\Pollution\src\main\scala\adapters\postgresql\PostgreSQL.scala:7:8: object creation impossible. Missing implementation for:
+[error]   def savePollution(pollution: eci.edu.co.domain.Pollution): Either[Throwable,eci.edu.co.domain.Pollution] // inherited from trait ForUpdatingRepository
+[error] object PostgreSQL extends ForUpdatingRepository{
+[error]        ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 2 s, completed 1 dic. 2023 00:09:14
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
